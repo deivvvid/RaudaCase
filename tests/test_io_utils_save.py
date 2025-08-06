@@ -5,10 +5,6 @@ import pytest
 import pandas as pd
 from evaluation.io_utils import save_evaluated_tickets
 
-# Dummy data for tests
-dummy_ticket = "How do I change my email address?"
-dummy_reply = "You can change your email by going to settings > profile."
-
 def test_save_csv(tmp_path):
     output_file = tmp_path / "output.csv"
     df = pd.DataFrame({
