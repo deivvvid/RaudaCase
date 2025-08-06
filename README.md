@@ -13,10 +13,10 @@ This project evaluates AI-generated customer support replies using a local LLM (
 │   ├── prompts.py           # Prompt builder for evaluation
 │
 ├── tests/ # All the tests
-│   └── test_io_utils_read_csv.py # Tests performed on io_utils read_csv
-│   └── test_io_utils_save.py # Tests performed on io_utils save_csv
-│   └── test_llm_utils.py # Tests performed on llm_utils
-│   └── test_prompts.py # Tests performed on prompts
+│   └── test_io_utils_read_csv.py   # Tests performed on io_utils read_csv
+│   └── test_io_utils_save.py       # Tests performed on io_utils save_csv
+│   └── test_llm_utils.py           # Tests performed on llm_utils
+│   └── test_prompts.py             # Tests performed on prompts
 │
 ├── evaluate_tickets.ipynb  # Main notebook
 ├── run_tests.ipynb         # Test notebook
